@@ -20,7 +20,7 @@ class MinhaLista:
 
     def vazios(self) -> List[int]:
         temp = filter(lambda x: x[1] == ' ', enumerate(self.lista, 1))
-        return list(map(lambda x: x[0], temp))
+        return list(map(lambda x: str(x[0]), temp))
 
     def __repr__(self) -> str:
         return f"MinhaLista: {self.lista}"

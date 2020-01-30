@@ -11,7 +11,7 @@ class Testes(TestCase):
         self.assertIsInstance(self.lista.__iter__(), Iterator)
 
     def test_vazios_retornando_todos_os_itens_nao_alterados_da_MinhaLista(self):
-        resultado, esperado = self.lista.vazios(), [*range(9)]
+        resultado, esperado = self.lista.vazios(), [*map(str, range(1, 10))]
         self.assertEqual(resultado, esperado)
 
     def test_setitem_definindo_True_caso_posicao_1_seja_escolhido(self):

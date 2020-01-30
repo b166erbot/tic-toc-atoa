@@ -11,7 +11,8 @@ ___
   - $ python3 main.py
 
 #### Todo:
+ - [x] numerar espaços vazios com suas respectivas teclas em tom de cinza.
  - [ ] partidas de 3 ou 5.
- - [ ] colorir partes essenciais do game.
- - [ ] melhorar os caracteres da grade e os símbolos X e O.
+ - [x] colorir partes essenciais do game.
+ - [x] melhorar os caracteres da grade e os símbolos X e O.
  - [ ] arrumar esse readme.
