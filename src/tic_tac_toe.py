@@ -55,7 +55,6 @@ def partida(adversario: str, jogador: str) -> NoReturn:
     simbolos = {'usuário': '❌', adversario: '⭕'}  # ✖ ◽ ◻
     funcoes = {'usuário': usuario, 'usuário2': usuario, 'máquina': maquina}
     venc = vencedor(simbolos, lista)
-    print('O primeiro usuário a jogar foi sorteado aleatoriamente.')
     while not venc:
         print(grade.format(*numerar(lista)))
         jogador = inverter(jogador, ['usuário', adversario])
@@ -131,6 +130,7 @@ def pegar_entrada(texto: str, itens: Iterable[str], texto2: str = False) -> str:
 
 def main() -> NoReturn:
     """ Função principal. """
+    print('Aviso: o primeiro usuário a jogar será escolhido aleatoriamente.\n')
     print('deseja jogar contra a máquina ou um adiversário humano?')
     resposta = pegar_entrada('máquina = 0, adversário = 1. -> ', '01')
     adversario = 'máquina' if resposta == '0' else 'usuário2'
