@@ -1,4 +1,5 @@
 from unittest import TestCase
+
 from src.tic_tac_toe import verificar_2
 
 

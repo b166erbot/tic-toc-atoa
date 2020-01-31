@@ -1,6 +1,7 @@
+from typing import Iterable, Iterator
 from unittest import TestCase, skip
+
 from src.tools import MinhaLista
-from typing import Iterator, Iterable
 
 
 class Testes(TestCase):
