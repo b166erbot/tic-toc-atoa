@@ -12,7 +12,7 @@ ___
 
 #### Todo:
  - [x] numerar espaços vazios com suas respectivas teclas em tom de cinza.
- - [ ] partidas de 3 ou 5.
+ - [x] partidas de 3 ou 5.
  - [x] colorir partes essenciais do game.
  - [x] melhorar os caracteres da grade e os símbolos X e O.
  - [ ] arrumar esse readme.
