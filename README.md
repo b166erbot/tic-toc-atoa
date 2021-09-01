@@ -1,4 +1,4 @@
-# tic-tac-atoa
+# tic-toc-atoa
 Criei minha versão do tic-toc-toe em python, o tic-toc-atoa!
 
 ___
